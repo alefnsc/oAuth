@@ -1,0 +1,18 @@
+<!-- This HTML template code displays different content based on the user's authentication status.
+     If the user is not authenticated (logged in), a welcome message and options to log in with
+     Google or Facebook using OAuth are shown.
+     
+     If the user is authenticated, their display name is shown along with a logout link. -->
+
+<% if (!user) { %>
+<div style="width: 500px; height: 180px">
+  <h2 style="font-size: 40px">Welcome! Please log in.</h2>
+  <a href="./auth/google">Login with Google (OAuth)</a>
+  <a href="./auth/facebook">Login with Facebook (OAuth)</a>
+</div>
+
+<% } else { %>
+<div id="user-info"></div>
+<h2>Hello, <%= user.displayName %>.</h2>
+<a href="./logout">Logout</a>
+<% } %>
