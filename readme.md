@@ -10,7 +10,7 @@
 6. [Express App Settings](#express-app-settings)
 7. [Routes](#routes)
 8. [Usage](#usage)
-9. [Contact Information](#contact-information)
+9. [Contact](#contact)
 
 ## 1. Introduction
 
@@ -66,9 +66,9 @@ The server includes routes for handling authentication, callbacks, and user sess
 3. Run the server with `npm start`.
 4. Access the application in your browser at `http://localhost:3000`.
 
-## 9. Contact Information
+## 9. Contact
 
 For questions or inquiries, please contact the project maintainer:
 
-- Maintainer: Alexandre Fonseca
-- Email: alexandrefonsecach@gmail.com
+- **Maintainer:** Alexandre Fonseca
+- **Email:** alexandrefonsecach@gmail.com
